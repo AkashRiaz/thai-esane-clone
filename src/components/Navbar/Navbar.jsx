@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-[#FFFFFF]">
+      <div className="navbar bg-[#FFFFFF] relative z-10">
         <div className="navbar-start">
-          <div className="dropdown">
+          <div className="dropdown relative z-20">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +25,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 z-[30] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a>Item 1</a>
@@ -50,11 +51,11 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Item 1</a>
+              <Link to="/">Home</Link>
             </li>
             <li tabIndex={0}>
               <details>
-                <summary>Parent</summary>
+                <summary>Order Now</summary>
                 <ul className="p-2">
                   <li>
                     <a>Submenu 1</a>
@@ -65,8 +66,27 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
+            <li tabIndex={0}>
+              <details>
+                <summary>Our Menu </summary>
+                <ul className="">
+                  <li>
+                    <a>Nashville</a>
+                  </li>
+                  <li>
+                    <a>Brentwood</a>
+                  </li>
+                  <li>
+                    <a>Foodhall</a>
+                  </li>
+                </ul>
+              </details>
+            </li>
             <li>
-              <a>Item 3</a>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
             </li>
           </ul>
         </div>

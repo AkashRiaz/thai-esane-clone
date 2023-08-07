@@ -1,9 +1,11 @@
 import React from 'react';
+import PageCover from '../../../components/PageCover/PageCover';
+import homeBanner from '../../../assets/pageCover/03.png'
 
 const Home = () => {
     return (
-        <div className='h-96'>
-            <h2>This is Home page</h2>
+        <div>
+           <PageCover bgImg={homeBanner} coverTitle={"THAI ESANE"}></PageCover>
         </div>
     );
 };
