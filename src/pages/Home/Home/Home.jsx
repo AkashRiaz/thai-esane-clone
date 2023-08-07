@@ -5,11 +5,12 @@ import nashvilleImg from "../../../assets/home/Cashew-Nut.jpg"
 import brentWoodImg from "../../../assets/home/Crying-Lion.jpg"
 import './Home.css'
 import ParallaxSection from "../ParallaxSection/ParallaxSection";
+import HomeSlider from "../HomeSlider/HomeSlider";
 
 const Home = () => {
   return (
     <div>
-      <PageCover bgImg={homeBanner} coverTitle={"THAI ESANE"}></PageCover>
+      <HomeSlider></HomeSlider>
       <div className="text-center md:w-9/12 mx-auto my-5 md:my-24">
         <div>
           <h1 className="text-5xl font-light mb-5 md:px-10">
