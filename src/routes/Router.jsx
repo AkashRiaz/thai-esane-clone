@@ -6,6 +6,7 @@ import Main from "../Layout/Main";
 import About from "../pages/About/About";
 import Gallery from "../pages/Gallery/Gallery";
 import JoinOurTeam from "../pages/JoinOurTeam/JoinOurTeam";
+import Contact from "../pages/Contact/Contact";
 
   const router = createBrowserRouter([
     {
@@ -23,6 +24,14 @@ import JoinOurTeam from "../pages/JoinOurTeam/JoinOurTeam";
             {
                 path:'/gallery',
                 element:<Gallery></Gallery>
+            },
+            {
+                path:'/joinOurTeam',
+                element:<JoinOurTeam></JoinOurTeam>
+            },
+            {
+                path:'/contact',
+                element:<Contact></Contact>
             },
             {
                 path:'/joinOurTeam',

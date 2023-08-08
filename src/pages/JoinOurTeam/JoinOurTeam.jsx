@@ -1,42 +1,25 @@
 import React from 'react';
 import PageCover from '../../components/PageCover/PageCover';
 import teamImage from '../../assets/pageCover/join-our-team.jpg'
+import JoinForm from './JoinForm';
+import OtherPageSlider from '../../components/PageCover/OtherPageSlider';
 
 const JoinOurTeam = () => {
     return (
         <div>
-            <PageCover bgImg={teamImage} coverTitle={"Join Our Team"}></PageCover>
+           <OtherPageSlider coverTitle={"Join Our Team"}></OtherPageSlider>
             <div>
-            <div className="hero min-h-screen ">
-  <div className="hero-content flex-col lg:flex-row-reverse">
-    <div className="text-center lg:text-left">
-      <h1 className="text-5xl font-bold">Login now!</h1>
-      <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-    </div>
-    <div className="card flex-shrink-0 w-full max-w-sm">
-      <div className="card-body">
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Email</span>
-          </label>
-          <input type="text" placeholder="email" className="input input-bordered" />
-        </div>
-        <div className="form-control">
-          <label className="label">
-            <span className="label-text">Password</span>
-          </label>
-          <input type="text" placeholder="password" className="input input-bordered" />
-          <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-          </label>
-        </div>
-        <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+            <div className="grid md:grid-cols-2 grid-cols-1 md:my-20 my-10">
+            <div className="left-side flex justify-center">
+              <div className="w-7/12">
+              <h2 className="md:text-5xl text-3xl font-normal text-black  md:mb-7 mb-4">Send Your Resume</h2>
+              <p>Thank you for your interest in joining our team. Please submit your information and a copy of your resume for consideration.</p>
+              </div>
+            </div>
+            <div className="right-side">
+              <JoinForm></JoinForm>
+            </div>
+          </div>
             </div>
         </div>
     );

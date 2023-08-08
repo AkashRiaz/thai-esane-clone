@@ -35,7 +35,7 @@ const HomeSlider = () => {
             bgImage={slider2}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
@@ -57,7 +57,7 @@ const HomeSlider = () => {
             bgImage={slider3}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
@@ -79,7 +79,7 @@ const HomeSlider = () => {
             bgImage={slider4}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
@@ -101,7 +101,7 @@ const HomeSlider = () => {
             bgImage={slider5}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
@@ -123,7 +123,7 @@ const HomeSlider = () => {
             bgImage={slider6}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
@@ -145,7 +145,7 @@ const HomeSlider = () => {
             bgImage={slider7}
             bgImageAlt="the menu"
             strength={50}
-            className="md:h-[600px] h-[200px] flex flex-col justify-center items-center"
+            className="md:h-[500px] h-[200px] flex flex-col justify-center items-center"
           >
               <div className="text-center">
               <h2 className="md:text-5xl text-3xl font-bold text-white">THAI ESANE</h2>
