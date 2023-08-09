@@ -71,7 +71,7 @@ const Navbar = () => {
                 <summary>Our Menu </summary>
                 <ul className="">
                   <li>
-                    <a>Nashville</a>
+                    <Link to='/foodMenu'>Nashville</Link>
                   </li>
                   <li>
                     <a>Brentwood</a>

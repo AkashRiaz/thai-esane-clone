@@ -7,6 +7,8 @@ import About from "../pages/About/About";
 import Gallery from "../pages/Gallery/Gallery";
 import JoinOurTeam from "../pages/JoinOurTeam/JoinOurTeam";
 import Contact from "../pages/Contact/Contact";
+import NashvilleMenu from "../pages/NashvilleMenu/NashvilleMenu";
+import SingleFood from "../pages/SingleFood/SingleFood";
 
   const router = createBrowserRouter([
     {
@@ -36,6 +38,14 @@ import Contact from "../pages/Contact/Contact";
             {
                 path:'/joinOurTeam',
                 element:<JoinOurTeam></JoinOurTeam>
+            },
+            {
+                path:'/foodMenu',
+                element:<NashvilleMenu></NashvilleMenu>
+            },
+            {
+                path:'/foodMenu/:id',
+                element:<SingleFood></SingleFood>
             }
         ]
     }

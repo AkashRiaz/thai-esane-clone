@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "menuName": "Cheeseburger",
+      "description": "Pan seared beef with lime juice, fish sauce, red onions, bell peppers, carrots, tomatoes and cucumbers. Served with rice",
+      "price": 8.99,
+      "image": "https://i.ibb.co/rskZd1m/food4.png"
+    },
+    {
+      "id": 2,
+      "menuName": "Margherita Pizza",
+      "description": "Pan seared beef with lime juice, fish sauce, red onions, bell peppers, carrots, tomatoes and cucumbers. Served with rice",
+      "price": 10.49,
+      "image": "https://i.ibb.co/TBxtyj4/Screenshot-82.png"
+    },
+    {
+      "id": 3,
+      "menuName": "Caesar Salad",
+      "description": "Pan seared beef with lime juice, fish sauce, red onions, bell peppers, carrots, tomatoes and cucumbers. Served with rice",
+      "price": 6.99,
+      "image": "https://i.ibb.co/GJhHRNw/food6.png"
+    },
+    {
+      "id": 4,
+      "menuName": "Spaghetti Carbonara",
+      "description": "Pan seared beef with lime juice, fish sauce, red onions, bell peppers, carrots, tomatoes and cucumbers. Served with rice",
+      "price": 12.99,
+      "image": "https://i.ibb.co/qgSbzpL/food5.png"
+    },
+    {
+      "id": 5,
+      "menuName": "Chocolate Brownie",
+      "description": "Pan seared beef with lime juice, fish sauce, red onions, bell peppers, carrots, tomatoes and cucumbers. Served with rice",
+      "price": 4.99,
+      "image": "https://i.ibb.co/fFr8Y5D/food3.png"
+    }
+  ]
+  
